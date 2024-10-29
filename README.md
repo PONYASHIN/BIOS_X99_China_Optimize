@@ -347,6 +347,6 @@ IntelRCSetup\Advanced Power Management Configuration\CPU C State Control>Enchanc
 
 IntelRCSetup\Advanced Power Management Configuration\CPU C State Control>CPU C6 report>Disable !!!test
 
-IntelRCSetup\Advanced Power Management Configuration\CPU - Advanced PM Tuning\Energy Perf BIAS>Energy Performance Tuning>Enable
+IntelRCSetup\Advanced Power Management Configuration\CPU - Advanced PM Tuning\Energy Perf BIAS>Energy Performance Tuning>Disable
 
 IntelRCSetup\Advanced Power Management Configuration\CPU - Advanced PM Tuning\Energy Perf BIAS>Energy Performance BIAS setting.>Performance
