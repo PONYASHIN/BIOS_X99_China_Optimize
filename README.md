@@ -296,7 +296,7 @@ IIO>Power down unused ports>no
 
 IIO>PCI-E ASPM (GLOBAL)>Disable
 
-Memory Configuration>Enforce POR>Auto !!!test
+Memory Configuration>Enforce POR>Disable
 
 Memory Configuration>ECC Support>Disable !!!test особенно если память серверная
 
