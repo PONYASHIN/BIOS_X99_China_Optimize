@@ -245,108 +245,120 @@
 
 Некоторые настройки могут быть скрыты в твоём биосе и поменять их можно только через AMIBCP и прошивку этого самого биоса. Настройки указаны в стиле "путь>параметр>значение". Если есть какие-то предложиния или проблемы с какой-то настройкой биоса, то пиши в дискорд который указан вначале.
 
-Advanced\PCI Subsystem\Settings>PCI Latency Timer> максимальное значение !!!При нестабильности или не старте системы ставь значение ниже
+<details>
+<summary>Advanced</summary>
 
-Advanced\PCI Subsystem\Settings>PCI-X Latency Timer> максимальное значение !!!При нестабильности или не старте системы ставь значение ниже
+PCI Subsystem\Settings>PCI Latency Timer> максимальное значение !!!При нестабильности или не старте системы ставь значение ниже
 
-Advanced\PCI Subsystem\Settings>Above 4G Decoding>Enabled
+PCI Subsystem\Settings>PCI-X Latency Timer> максимальное значение !!!При нестабильности или не старте системы ставь значение ниже
 
-Advanced\PCI Subsystem\Settings\PCI Express Settings>Maximum Payload> максимальное значение
+PCI Subsystem\Settings>Above 4G Decoding>Enabled
 
-Advanced\PCI Subsystem\Settings\PCI Express Settings>Maximum Read Request> максимальное значение
+PCI Subsystem\Settings\PCI Express Settings>Maximum Payload> максимальное значение
 
-Advanced\PCI Subsystem\Settings\PCI Express Settings>ASPM Support>Disabled
+PCI Subsystem\Settings\PCI Express Settings>Maximum Read Request> максимальное значение
 
-Advanced\PCI Subsystem\Settings\PCI Express Settings>Link Training Retry>Disabled или 2 !!!При не старте системы или нестабильности с обоими значениями верни стандартное
+PCI Subsystem\Settings\PCI Express Settings>ASPM Support>Disabled
 
-Advanced\PCI Subsystem\Settings\PCI Express GEN 2 Settings>Clock Power Management>Disabled
+PCI Subsystem\Settings\PCI Express Settings>Link Training Retry>Disabled или 2 !!!При не старте системы или нестабильности с обоими значениями верни стандартное
 
-IntelRCSetup\PCH Configuration\PCH SATA Configuration>Configure SATA as>AHCI !!!надеюсь у тебя это значение по стандарту было)
+PCI Subsystem\Settings\PCI Express GEN 2 Settings>Clock Power Management>Disabled
 
-IntelRCSetup\PCH Configuration\PCH SATA Configuration>SATA AHCI ALPM>Disabled
+---------------------------------
+</details>
 
-IntelRCSetup\PCH Configuration\PCH SATA Configuration>SATA AHCI LPM>Disabled
+<details>
+<summary>IntelRCSetup</summary>
 
-IntelRCSetup\PCH Configuration\PCI Express Configuration>PCI-E ASPM Support(GLOBAL)>Disable
+PCH Configuration\PCH SATA Configuration>Configure SATA as>AHCI !!!надеюсь у тебя это значение по стандарту было)
 
-IntelRCSetup\PCH Configuration\PCI Express Configuration\PCI Express Root Port 1(до конца всех портов)>PCH-PCIE ASPM>Disable ASPM
+PCH Configuration\PCH SATA Configuration>SATA AHCI ALPM>Disabled
 
-IntelRCSetup\PCH Configuration\PCI Express Configuration\PCI Express Root Port 1(до конца всех портов)>L1 Substates>Disable !!!test
+PCH Configuration\PCH SATA Configuration>SATA AHCI LPM>Disabled
 
-IntelRCSetup\PCH Configuration\PCI Express Configuration\PCI Express Root Port 1(до конца всех портов)>URR>Disable
+PCH Configuration\PCI Express Configuration>PCI-E ASPM Support(GLOBAL)>Disable
 
-IntelRCSetup\PCH Configuration\PCI Express Configuration\PCI Express Root Port 1(до конца всех портов)>FER>Disable
+PCH Configuration\PCI Express Configuration\PCI Express Root Port 1(до конца всех портов)>PCH-PCIE ASPM>Disable ASPM
 
-IntelRCSetup\PCH Configuration\PCI Express Configuration\PCI Express Root Port 1(до конца всех портов)>NFER>Disable
+PCH Configuration\PCI Express Configuration\PCI Express Root Port 1(до конца всех портов)>L1 Substates>Disable !!!test
 
-IntelRCSetup\PCH Configuration\PCI Express Configuration\PCI Express Root Port 1(до конца всех портов)>CER>Disable
+PCH Configuration\PCI Express Configuration\PCI Express Root Port 1(до конца всех портов)>URR>Disable
 
-IntelRCSetup\PCH Configuration\PCI Express Configuration\PCI Express Root Port 1(до конца всех портов)>PME SCI>Disable !!!test
+PCH Configuration\PCI Express Configuration\PCI Express Root Port 1(до конца всех портов)>FER>Disable
 
-IntelRCSetup\IIO>Power down unused ports>no
+PCH Configuration\PCI Express Configuration\PCI Express Root Port 1(до конца всех портов)>NFER>Disable
 
-IntelRCSetup\IIO>PCI-E ASPM (GLOBAL)>Disable
+PCH Configuration\PCI Express Configuration\PCI Express Root Port 1(до конца всех портов)>CER>Disable
 
-IntelRCSetup\Memory Configuration>Enforce POR>Auto !!!test
+PCH Configuration\PCI Express Configuration\PCI Express Root Port 1(до конца всех портов)>PME SCI>Disable !!!test
 
-IntelRCSetup\Memory Configuration>ECC Support>Disable !!!test особенно если память серверная
+IIO>Power down unused ports>no
 
-IntelRCSetup\Memory Configuration>BSSA Module Loader>Disable
+IIO>PCI-E ASPM (GLOBAL)>Disable
 
-IntelRCSetup\Memory Configuration>MemTest>Disable
+Memory Configuration>Enforce POR>Auto !!!test
 
-IntelRCSetup\Memory Configuration>DRAM Mainternance Test>Disable
+Memory Configuration>ECC Support>Disable !!!test особенно если память серверная
 
-IntelRCSetup\Memory Configuration>Rank Margin Tool>Disable !!!test
+Memory Configuration>BSSA Module Loader>Disable
 
-IntelRCSetup\Memory Configuration>Training Result Offset Config>Disable !!!test
+Memory Configuration>MemTest>Disable
 
-IntelRCSetup\Memory Configuration>Attempt Fast Boot>Disable
+Memory Configuration>DRAM Mainternance Test>Disable
 
-IntelRCSetup\Memory Configuration>Attempt Fast Cold Boot>Disable
+Memory Configuration>Rank Margin Tool>Disable !!!test
 
-IntelRCSetup\Memory Configuration>MemTest On Fast Boot>Disable
+Memory Configuration>Training Result Offset Config>Disable !!!test
 
-IntelRCSetup\Memory Configuration>RMT On Fast Boot>Disable
+Memory Configuration>Attempt Fast Boot>Disable
 
-IntelRCSetup\Memory Configuration\Memory Training>CMD Notmalization>Disable !!!test
+Memory Configuration>Attempt Fast Cold Boot>Disable
 
-IntelRCSetup\Memory Configuration\Memory Thermal>Set Throttling Mode>OLTT или Disabled !!!test
+Memory Configuration>MemTest On Fast Boot>Disable
 
-IntelRCSetup\Memory Configuration\Memory Thermal>Memory Power Settings Mode>Disabled
+Memory Configuration>RMT On Fast Boot>Disable
 
-IntelRCSetup\Memory Configuration\Memory Thermal>MDLL Off>Disabled
+Memory Configuration\Memory Training>CMD Notmalization>Disable !!!test
 
-IntelRCSetup\Memory Configuration\Memory Thermal>MEMHOT Throttling Mode>Disabled
+Memory Configuration\Memory Thermal>Set Throttling Mode>OLTT или Disabled !!!test
 
-IntelRCSetup\Memory Configuration\Memory Thermal>Mem Electrical Throttling>Disabled
+Memory Configuration\Memory Thermal>Memory Power Settings Mode>Disabled
 
-IntelRCSetup\Memory Configuration\Memory Thermal\Memory Power Saving Advanced Options>CK in SR>Pulled Low !!!test
+Memory Configuration\Memory Thermal>MDLL Off>Disabled
 
-IntelRCSetup\Memory Configuration\Memory Thermal\Memory Power Saving Advanced Options>CKE Throttling>Off !!!test
+Memory Configuration\Memory Thermal>MEMHOT Throttling Mode>Disabled
 
-IntelRCSetup\Memory Configuration\Memory Thermal\Memory Power Saving Advanced Options>Opportuninstic SR>Disabled !!!test
+Memory Configuration\Memory Thermal>Mem Electrical Throttling>Disabled
 
-IntelRCSetup\Memory Configuration\Memory Map>Channel Interleaving>Максимальное значение !!!test
+Memory Configuration\Memory Thermal\Memory Power Saving Advanced Options>CK in SR>Pulled Low !!!test
 
-IntelRCSetup\Memory Configuration\Memory Map>Rank Interleaving>Максимальное значение !!!test
+Memory Configuration\Memory Thermal\Memory Power Saving Advanced Options>CKE Throttling>Off !!!test
 
-IntelRCSetup\Memory Configuration\Memory RAS Configuration>Memory Power Management>Disable
+Memory Configuration\Memory Thermal\Memory Power Saving Advanced Options>Opportuninstic SR>Disabled !!!test
 
-IntelRCSetup\Processor Configuration>Hyper-Threading>Disable !!!для кс подобных по оптимизации игр
+Memory Configuration\Memory Map>Channel Interleaving>Максимальное значение !!!test
 
-IntelRCSetup\Processor Configuration>X2APIC>Enable !!!test
+Memory Configuration\Memory Map>Rank Interleaving>Максимальное значение !!!test
 
-IntelRCSetup\Advanced Power Management Configuration\CPU P State Control>EIST (P-States)>Enable
+Memory Configuration\Memory RAS Configuration>Memory Power Management>Disable
 
-IntelRCSetup\Advanced Power Management Configuration\CPU P State Control>Enery Efficent P-state>Disable
+Processor Configuration>Hyper-Threading>Disable !!!для кс подобных по оптимизации игр
 
-IntelRCSetup\Advanced Power Management Configuration\CPU P State Control>Boot performance mode>Max Performance
+Processor Configuration>X2APIC>Enable !!!test
 
-IntelRCSetup\Advanced Power Management Configuration\CPU C State Control>Enchanced Halt State (C1E)>Disable !!!test
+Advanced Power Management Configuration\CPU P State Control>EIST (P-States)>Enable
 
-IntelRCSetup\Advanced Power Management Configuration\CPU C State Control>CPU C6 report>Disable !!!test
+Advanced Power Management Configuration\CPU P State Control>Enery Efficent P-state>Disable
 
-IntelRCSetup\Advanced Power Management Configuration\CPU - Advanced PM Tuning\Energy Perf BIAS>Energy Performance Tuning>Disable
+Advanced Power Management Configuration\CPU P State Control>Boot performance mode>Max Performance
 
-IntelRCSetup\Advanced Power Management Configuration\CPU - Advanced PM Tuning\Energy Perf BIAS>Energy Performance BIAS setting.>Performance
+Advanced Power Management Configuration\CPU C State Control>Enchanced Halt State (C1E)>Disable !!!test
+
+Advanced Power Management Configuration\CPU C State Control>CPU C6 report>Disable !!!test
+
+Advanced Power Management Configuration\CPU - Advanced PM Tuning\Energy Perf BIAS>Energy Performance Tuning>Disable
+
+Advanced Power Management Configuration\CPU - Advanced PM Tuning\Energy Perf BIAS>Energy Performance BIAS setting.>Performance
+
+---------------------------------
+</details>
