@@ -300,8 +300,6 @@ Memory Configuration>Enforce POR>Disable
 
 Memory Configuration>ECC Support>Disable !!!test особенно если память серверная
 
-Memory Configuration>BSSA Module Loader>Disable
-
 Memory Configuration>MemTest>Disable
 
 Memory Configuration>DRAM Mainternance Test>Disable
