@@ -340,8 +340,6 @@ Memory Configuration\Memory RAS Configuration>Memory Power Management>Disable
 
 Processor Configuration>Hyper-Threading>Disable !!!для кс подобных по оптимизации игр
 
-Processor Configuration>X2APIC>Enable !!!test
-
 Advanced Power Management Configuration\CPU P State Control>EIST (P-States)>Enable
 
 Advanced Power Management Configuration\CPU P State Control>Enery Efficent P-state>Disable
