@@ -306,8 +306,6 @@ Memory Configuration>DRAM Mainternance Test>Disable
 
 Memory Configuration>Rank Margin Tool>Disable !!!test
 
-Memory Configuration>Training Result Offset Config>Disable !!!test
-
 Memory Configuration>Attempt Fast Boot>Disable
 
 Memory Configuration>Attempt Fast Cold Boot>Disable
