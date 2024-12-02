@@ -282,7 +282,7 @@ PCH Configuration\PCI Express Configuration>PCI-E ASPM Support(GLOBAL)>Disable
 
 PCH Configuration\PCI Express Configuration\PCI Express Root Port 1(до конца всех портов)>PCH-PCIE ASPM>Disable ASPM
 
-PCH Configuration\PCI Express Configuration\PCI Express Root Port 1(до конца всех портов)>L1 Substates>Disable !!!test
+PCH Configuration\PCI Express Configuration\PCI Express Root Port 1(до конца всех портов)>L1 Substates>Disable
 
 PCH Configuration\PCI Express Configuration\PCI Express Root Port 1(до конца всех портов)>URR>Disable
 
@@ -292,7 +292,7 @@ PCH Configuration\PCI Express Configuration\PCI Express Root Port 1(до кон�
 
 PCH Configuration\PCI Express Configuration\PCI Express Root Port 1(до конца всех портов)>CER>Disable
 
-PCH Configuration\PCI Express Configuration\PCI Express Root Port 1(до конца всех портов)>PME SCI>Disable !!!test
+PCH Configuration\PCI Express Configuration\PCI Express Root Port 1(до конца всех портов)>PME SCI>Disable
 
 IIO>Power down unused ports>no
 
@@ -300,13 +300,13 @@ IIO>PCI-E ASPM (GLOBAL)>Disable
 
 Memory Configuration>Enforce POR>Disable
 
-Memory Configuration>ECC Support>Disable !!!test особенно если память серверная
+Memory Configuration>ECC Support>Disable
 
 Memory Configuration>MemTest>Disable
 
 Memory Configuration>DRAM Mainternance Test>Disable
 
-Memory Configuration>Rank Margin Tool>Disable !!!test
+Memory Configuration>Rank Margin Tool>Disable
 
 Memory Configuration>Attempt Fast Boot>Disable
 
@@ -339,8 +339,6 @@ Memory Configuration\Memory Map>Channel Interleaving>Максимальное з
 Memory Configuration\Memory Map>Rank Interleaving>Максимальное значение !!!test
 
 Memory Configuration\Memory RAS Configuration>Memory Power Management>Disable
-
-Processor Configuration>Hyper-Threading>Disable !!!для кс подобных по оптимизации игр
 
 Advanced Power Management Configuration\CPU P State Control>EIST (P-States)>Enable
 
