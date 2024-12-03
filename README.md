@@ -348,8 +348,6 @@ Advanced Power Management Configuration\CPU P State Control>Boot performance mod
 
 Advanced Power Management Configuration\CPU C State Control>Enchanced Halt State (C1E)>Disable !!!test
 
-Advanced Power Management Configuration\CPU C State Control>CPU C6 report>Disable !!!test
-
 Advanced Power Management Configuration\CPU - Advanced PM Tuning\Energy Perf BIAS>Energy Performance Tuning>Disable
 
 Advanced Power Management Configuration\CPU - Advanced PM Tuning\Energy Perf BIAS>Energy Performance BIAS setting.>Performance
