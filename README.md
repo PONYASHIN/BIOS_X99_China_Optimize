@@ -294,9 +294,19 @@ PCH Configuration\PCI Express Configuration\PCI Express Root Port 1(до кон�
 
 PCH Configuration\PCI Express Configuration\PCI Express Root Port 1(до конца всех портов)>PME SCI>Disable
 
-IIO>Power down unused ports>no
+IIO Configuration>Power down unused ports>no
 
-IIO>PCI-E ASPM (GLOBAL)>Disable
+IIO Configuration>PCI-E ASPM (GLOBAL)>Disable
+
+IIO Configuration>PCI-E ASPM (GLOBAL)>Disable
+
+IIO Configuration\IIO0 Configuration\(порт видеокарты или все)>PCI-E Port L1 Exit Latency>(Минимальное значение) !!! test разные значения потыкай
+
+IIO Configuration\IIO0 Configuration\(порт видеокарты или все)>PCI-E Port L0s Exit Latency>(Минимальное значение) !!! test разные значения потыкай
+
+IIO Configuration\IIO0 Configuration\(порт видеокарты или все)>PCI-E Port D-State>D0
+
+IIO Configuration\IIO0 Configuration\(порт видеокарты или все)>MSI>Enable
 
 Memory Configuration>Enforce POR>Disable
 
