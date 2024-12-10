@@ -300,11 +300,7 @@ IIO Configuration>Power down unused ports>no
 
 IIO Configuration>PCI-E ASPM (GLOBAL)>Disable
 
-IIO Configuration>PCI-E ASPM (GLOBAL)>Disable
-
 IIO Configuration\IIO0 Configuration\(порт видеокарты или все)>PCI-E Port L1 Exit Latency>(Минимальное значение) !!! test разные значения потыкай
-
-IIO Configuration\IIO0 Configuration\(порт видеокарты или все)>PCI-E Port L0s Exit Latency>(Минимальное значение) !!! test разные значения потыкай
 
 IIO Configuration\IIO0 Configuration\(порт видеокарты или все)>PCI-E Port D-State>D0
 
