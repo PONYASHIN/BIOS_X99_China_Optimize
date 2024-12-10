@@ -280,6 +280,8 @@ PCH Configuration\PCH SATA Configuration>SATA AHCI LPM>Disabled
 
 PCH Configuration\PCI Express Configuration>PCI-E ASPM Support(GLOBAL)>Disable
 
+PCH Configuration\PCI Express Configuration>PCH DMI ASPM>Disable
+
 PCH Configuration\PCI Express Configuration\PCI Express Root Port 1(до конца всех портов)>PCH-PCIE ASPM>Disable ASPM
 
 PCH Configuration\PCI Express Configuration\PCI Express Root Port 1(до конца всех портов)>L1 Substates>Disable
