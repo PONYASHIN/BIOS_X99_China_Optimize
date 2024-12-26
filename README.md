@@ -352,6 +352,10 @@ Advanced Power Management Configuration\CPU P State Control>Boot performance mod
 
 Advanced Power Management Configuration\CPU C State Control>Enchanced Halt State (C1E)>Disable !!!test
 
+Advanced Power Management Configuration\DRAM RAPL Configuration>DRAM RAPL Baseline>Disable !!!test
+
+Advanced Power Management Configuration\DRAM RAPL Configuration>Override BW_LIMIT_TF>0 !!!test
+
 Advanced Power Management Configuration\CPU - Advanced PM Tuning\Energy Perf BIAS>Energy Performance Tuning>Disable
 
 Advanced Power Management Configuration\CPU - Advanced PM Tuning\Energy Perf BIAS>Energy Performance BIAS setting.>Performance
