@@ -346,6 +346,12 @@ Memory Configuration\Memory RAS Configuration>Memory Power Management>Disable
 
 Processor Configuration>Intel Enhanced Debug>Disable
 
+Processor Configuration>Check CPU BIST Result>Disable !!!test
+
+Processor Configuration>3StrikeTimer>Disabled
+
+Processor Configuration>Machine Check>Disable
+
 Advanced Power Management Configuration\CPU P State Control>EIST (P-States)>Enable
 
 Advanced Power Management Configuration\CPU P State Control>Enery Efficent P-state>Disable
