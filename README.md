@@ -348,7 +348,7 @@ Processor Configuration>Intel Enhanced Debug>Disable
 
 Processor Configuration>Check CPU BIST Result>Disable !!!test
 
-Processor Configuration>3StrikeTimer>Disabled
+Processor Configuration>3StrikeTimer>Disabled !!!test
 
 Processor Configuration>Machine Check>Disable
 
