@@ -344,6 +344,8 @@ Memory Configuration\Memory Map>Rank Interleaving>Максимальное зн�
 
 Memory Configuration\Memory RAS Configuration>Memory Power Management>Disable
 
+Processor Configuration>Intel Enhanced Debug>Disable
+
 Advanced Power Management Configuration\CPU P State Control>EIST (P-States)>Enable
 
 Advanced Power Management Configuration\CPU P State Control>Enery Efficent P-state>Disable
