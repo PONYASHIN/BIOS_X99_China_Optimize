@@ -302,6 +302,10 @@ IIO Configuration\IIO0 Configuration\(порт видеокарты или вс�
 
 IIO Configuration\IIO0 Configuration\(порт видеокарты или все)>MSI>Enable
 
+QPI Configuration\QPI General Configuration>COD Enable>Disable
+
+QPI Configuration\QPI General Configuration>Early Snoop>Disable
+
 Memory Configuration>Enforce POR>Disable
 
 Memory Configuration>ECC Support>Disable
