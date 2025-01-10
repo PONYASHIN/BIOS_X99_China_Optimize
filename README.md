@@ -270,7 +270,7 @@ PCI Subsystem\Settings\PCI Express Settings>Maximum Read Request> максима
 
 PCI Subsystem\Settings\PCI Express Settings>ASPM Support>Disabled
 
-PCI Subsystem\Settings\PCI Express Settings>Link Training Retry>Disabled или 2 !!!При не старте системы или нестабильности с обоими значениями верни стандартное
+PCI Subsystem\Settings\PCI Express Settings>Link Training Retry>Disabled или 2
 
 PCI Subsystem\Settings\PCI Express GEN 2 Settings>Clock Power Management>Disabled
 
