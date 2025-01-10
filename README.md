@@ -256,9 +256,9 @@
 <details>
 <summary>Advanced</summary>
 
-PCI Subsystem\Settings>PCI Latency Timer> максимальное значение !!!При нестабильности или не старте системы ставь значение ниже
+PCI Subsystem\Settings>PCI Latency Timer> 160 !!но лучше найти своё значение на котором будет более лучший результат
 
-PCI Subsystem\Settings>PCI-X Latency Timer> максимальное значение !!!При нестабильности или не старте системы ставь значение ниже
+PCI Subsystem\Settings>PCI-X Latency Timer> 160 !!но лучше найти своё значение на котором будет более лучший результат
 
 PCI Subsystem\Settings>Above 4G Decoding>Enabled
 
