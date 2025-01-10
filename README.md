@@ -184,6 +184,8 @@
 !!! На некоторых платах можно попробовать снять ограничение по току разблокировав пункт меню Program PP0_CURT_CFG_CTRL_MSR. Для этого открываем наш дамп биоса через AMIBCP и идём по пути IntelRCSetup>Advanced Power Management Configuration>CPU - Advanced PM Tuning и там на против пункта Program PP0_CURT_CFG_CTRL_MSR в колонке Access/Use выставляем USER. После чего сохраняем наш дамп и прошиваем. Теперь в биосе по тому же пути (IntelRCSetup>Advanced Power Management Configuration>CPU - Advanced PM Tuning) заходим в разблокированный пункт Program PP0_CURT_CFG_CTRL_MSR и там выставляем настройку Current Config в положение Enable и значение Current Limitation выставляем по принципу: допустим лимит нужен 200А - значит ставим 1600. Проще говоря требуемый ток умножаем на 8 и вбиваем полученное значение.
 
 ## 3. Добавление поддержки ReBar
+Если в твоём биосе (Advanced\PCI Subsystem Settings) нет настройки Re-Size BAR Support, то нужно добавить драйвер re-bar в биос.
+
 1. Скачиваем [ReBarDxe.ffs и ReBarState.exe](https://github.com/xCuri0/ReBarUEFI/releases/latest)
 2. Открываем в [UEFITool 0.28.0](https://github.com/LongSoft/UEFITool/releases/tag/0.28.0) файл биоса
 3. Раскрываем список и идём по пути "Intel image > BIOS region > 8C8CE578-...(предпоследний, второй снизу, в котором DXE драйверы) >"
