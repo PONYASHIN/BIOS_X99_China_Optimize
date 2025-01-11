@@ -364,6 +364,8 @@ Processor Configuration>3StrikeTimer>Disabled !!!test
 
 Processor Configuration>Machine Check>Disable
 
+Advanced Power Management Configuration>Power Technology>Custom
+
 Advanced Power Management Configuration\CPU P State Control>EIST (P-States)>Enable
 
 Advanced Power Management Configuration\CPU P State Control>Enery Efficent P-state>Disable
