@@ -407,6 +407,8 @@ Memory Configuration\Memory Thermal>MEMHOT Throttling Mode>Disabled
 
 Memory Configuration\Memory Thermal>Mem Electrical Throttling>Disabled
 
+Memory Configuration\Memory Thermal>Phase Shedding>Disabled
+
 Memory Configuration\Memory Thermal\Memory Power Saving Advanced Options>CK in SR>Pulled Low !!!test
 
 Memory Configuration\Memory Thermal\Memory Power Saving Advanced Options>CKE Throttling>Off !!!test
