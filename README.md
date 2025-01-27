@@ -325,7 +325,7 @@ PCI Subsystem\Settings>PCI Latency Timer> 160 !!но лучше найти св�
 
 PCI Subsystem\Settings>PCI-X Latency Timer> 160 !!но лучше найти своё значение на котором будет более лучший результат
 
-PCI Subsystem\Settings>Above 4G Decoding>Enabled
+PCI Subsystem\Settings>Above 4G Decoding>Enabled  !!!у некоторых пользователей rx 580 2048sp исчезает картинка в биосе
 
 PCI Subsystem\Settings\PCI Express Settings>Maximum Payload> максимальное значение
 
