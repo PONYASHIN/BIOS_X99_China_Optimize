@@ -373,6 +373,10 @@ IIO Configuration\IIO0 Configuration\(порт видеокарты или вс�
 
 IIO Configuration\IIO0 Configuration\(порт видеокарты или все)>MSI>Enable
 
+IIO Configuration\IIO0 Configuration\(порт видеокарты или все)>Gen3 Eq Mode>Advanced !!! test
+
+IIO Configuration\IIO0 Configuration\(порт видеокарты или все)>Gen3 Phase3 Mode>Mid @ Max Boost (SW Ovrd)  !!!test
+
 QPI Configuration\QPI General Configuration>COD Enable>Disable
 
 QPI Configuration\QPI General Configuration>Early Snoop>Disable
