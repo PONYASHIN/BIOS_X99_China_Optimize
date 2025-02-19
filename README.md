@@ -392,8 +392,6 @@ QPI Configuration\QPI General Configuration>Early Snoop>Disable
 
 Memory Configuration>Enforce POR>Disable
 
-Memory Configuration>ECC Support>Disable
-
 Memory Configuration>MemTest>Disable
 
 Memory Configuration>DRAM Mainternance Test>Disable
