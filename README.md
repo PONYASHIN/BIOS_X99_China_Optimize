@@ -406,8 +406,6 @@ Memory Configuration>MemTest On Fast Boot>Disable
 
 Memory Configuration>RMT On Fast Boot>Disable
 
-Memory Configuration\Memory Training>CMD Notmalization>Disable !!!test
-
 Memory Configuration\Memory Thermal>Set Throttling Mode>Disabled или OLTT если у тебя DDR3
 
 Memory Configuration\Memory Thermal>Memory Power Settings Mode>Disabled
