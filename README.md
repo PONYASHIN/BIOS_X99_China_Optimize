@@ -448,7 +448,7 @@ Advanced Power Management Configuration\CPU P State Control>Enery Efficent P-sta
 
 Advanced Power Management Configuration\CPU P State Control>Boot performance mode>Max Performance
 
-Advanced Power Management Configuration\CPU C State Control>Enchanced Halt State (C1E)>Disable !!!test
+Advanced Power Management Configuration\CPU C State Control>Enchanced Halt State (C1E)>Disable
 
 Advanced Power Management Configuration\DRAM RAPL Configuration>DRAM RAPL Baseline>Disable !!!test
 
