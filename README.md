@@ -374,6 +374,8 @@ PCH Configuration\PCI Express Configuration\PCI Express Root Port 1(до кон�
 
 PCH Configuration\PCI Express Configuration\PCI Express Root Port 1(до конца всех портов)>PME SCI>Disable
 
+IIO Configuration\Intel VT for Directed I/O (VT-d)>Intel VT for Directed I/O (VT-d)>Disable !!!только если тебе не нужна виртуализация
+
 IIO Configuration>Power down unused ports>no
 
 IIO Configuration>PCI-E ASPM (GLOBAL)>Disable
