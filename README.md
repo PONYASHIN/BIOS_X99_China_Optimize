@@ -432,6 +432,8 @@ Memory Configuration\Memory Map>Rank Interleaving>Максимальное зн�
 
 Memory Configuration\Memory RAS Configuration>Memory Power Management>Disable
 
+Memory Configuration\Memory RAS Configuration>DRAM Maintenance>Disable
+
 Memory Configuration\Memory Training>Все настройки кроме Per Bit Deskew>Enable
 
 Processor Configuration>Intel Enhanced Debug>Disable
