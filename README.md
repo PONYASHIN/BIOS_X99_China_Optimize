@@ -330,21 +330,25 @@
 <details>
 <summary>Advanced</summary>
 
-PCI Subsystem\Settings>PCI Latency Timer> 160 !!но лучше найти своё значение на котором будет более лучший результат
+PCI Subsystem Settings>PCI Latency Timer> 160 !!но лучше найти своё значение на котором будет более лучший результат
 
-PCI Subsystem\Settings>PCI-X Latency Timer> 160 !!но лучше найти своё значение на котором будет более лучший результат
+PCI Subsystem Settings>PCI-X Latency Timer> 160 !!но лучше найти своё значение на котором будет более лучший результат
 
-PCI Subsystem\Settings>Above 4G Decoding>Enabled  !!!у некоторых пользователей rx 580 2048sp исчезает картинка в биосе
+PCI Subsystem Settings>Above 4G Decoding>Enabled  !!!у некоторых пользователей rx 580 2048sp исчезает картинка в биосе
 
-PCI Subsystem\Settings\PCI Express Settings>Maximum Payload> максимальное значение
+PCI Subsystem Settings\PCI Express Settings>Maximum Payload> максимальное значение
 
-PCI Subsystem\Settings\PCI Express Settings>Maximum Read Request> максимальное значение
+PCI Subsystem Settings\PCI Express Settings>Maximum Read Request> максимальное значение
 
-PCI Subsystem\Settings\PCI Express Settings>ASPM Support>Disabled
+PCI Subsystem Settings\PCI Express Settings>ASPM Support>Disabled
 
-PCI Subsystem\Settings\PCI Express Settings>Link Training Retry>Disabled или 2
+PCI Subsystem Settings\PCI Express Settings>Link Training Retry>Disabled или 2
 
-PCI Subsystem\Settings\PCI Express GEN 2 Settings>Clock Power Management>Disabled
+PCI Subsystem Settings\PCI Express GEN 2 Settings>Clock Power Management>Disabled
+
+USB Configuration>XHCI Hand-off>Disabled   !!!если ты используешь вин7, то оставь поумолчанию
+
+USB Configuration>EHCI Hand-off>Disabled   !!!если ты используешь вин7, то оставь поумолчанию
 
 ---------------------------------
 </details>
