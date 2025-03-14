@@ -464,6 +464,8 @@ Advanced Power Management Configuration\CPU - Advanced PM Tuning\Energy Perf BIA
 
 Advanced Power Management Configuration\CPU - Advanced PM Tuning\Energy Perf BIAS>Energy Performance BIAS setting.>Performance
 
+Server ME Configuration>ME State>Disabled
+
 ---------------------------------
 </details>
 
