@@ -452,15 +452,29 @@ Processor Configuration>3StrikeTimer>Disabled !!!test
 
 Processor Configuration>Machine Check>Disable
 
+Processor Configuration>VMX>Disable !!!если не используешь виртуализацию
+
+Processor Configuration>MSR Lock Control>Disabled !!!test
+
+Processor Configuration>Monitor/Mwait>Disable
+
 Advanced Power Management Configuration>Power Technology>Custom
 
-Advanced Power Management Configuration\CPU P State Control>EIST (P-States)>Enable
+Advanced Power Management Configuration\CPU HWPM State Control>Enable CPU HWPM>Disable
+
+Advanced Power Management Configuration\CPU HWPM State Control>Enable CPU Autonomous Cstate>Disable
+
+Advanced Power Management Configuration\CPU P State Control>EIST (P-States)>Enable  !!!! ЕСЛИ ТЫ РАЗГОНЯЕШЬ 16xx v3 ТО НУЖНО НАОБОРОТ DISABLE
 
 Advanced Power Management Configuration\CPU P State Control>Enery Efficent P-state>Disable
 
 Advanced Power Management Configuration\CPU P State Control>Boot performance mode>Max Performance
 
 Advanced Power Management Configuration\CPU C State Control>Enchanced Halt State (C1E)>Disable
+
+Advanced Power Management Configuration\CPU T State Control>ACPI T-States>Disable
+
+Advanced Power Management Configuration\CPU T State Control>T-State Throttle>Disable
 
 Advanced Power Management Configuration\DRAM RAPL Configuration>DRAM RAPL Baseline>Disable !!!test
 
