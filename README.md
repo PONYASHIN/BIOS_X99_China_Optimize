@@ -466,7 +466,7 @@ Processor Configuration>VMX>Disable !!!если не используешь ви
 
 Processor Configuration>MSR Lock Control>Disabled !!!test
 
-Processor Configuration>Monitor/Mwait>Disable
+Processor Configuration>Monitor/Mwait>Disable  !!!иногда ломает запуск системы
 
 Advanced Power Management Configuration>Power Technology>Custom
 
