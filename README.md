@@ -352,6 +352,8 @@ USB Configuration>XHCI Hand-off>Disabled   !!!если ты используеш
 
 USB Configuration>EHCI Hand-off>Disabled   !!!если ты используешь вин7, то оставь поумолчанию
 
+USB Configuration>Port 60/64 Emulation>Disabled   !!!если ты используешь ps/2 клавиатуру или мыш - оставь поумолчаню
+
 ---------------------------------
 </details>
 
