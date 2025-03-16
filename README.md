@@ -360,7 +360,7 @@ USB Configuration>Port 60/64 Emulation>Disabled   !!!если ты исполь�
 <details>
 <summary>IntelRCSetup</summary>
 
-PCH Configuration\PCH SATA Configuration>Configure SATA as>AHCI !!!надеюсь у тебя это значение по стандарту было)
+PCH Configuration\PCH SATA Configuration>Configure SATA as>AHCI
 
 PCH Configuration\PCH SATA Configuration>SATA AHCI ALPM>Disabled
 
@@ -471,6 +471,12 @@ Advanced Power Management Configuration\CPU P State Control>Enery Efficent P-sta
 Advanced Power Management Configuration\CPU P State Control>Boot performance mode>Max Performance
 
 Advanced Power Management Configuration\CPU C State Control>Enchanced Halt State (C1E)>Disable
+
+Advanced Power Management Configuration\CPU C State Control>CPU C3 report>Disable !!!может снизить частоты при анлоке, поэтому после отключения необходимо проверить частоту процессора через CPU-Z
+
+Advanced Power Management Configuration\CPU C State Control>CPU C6 report>Disable
+
+Advanced Power Management Configuration\CPU C State Control>Package C State limit>C0/C1 state  !!!может снизить частоты при анлоке, поэтому после отключения необходимо проверить частоту процессора через CPU-Z
 
 Advanced Power Management Configuration\CPU T State Control>ACPI T-States>Disable
 
