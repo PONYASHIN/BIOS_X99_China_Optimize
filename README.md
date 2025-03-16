@@ -392,6 +392,10 @@ PCH Configuration\PCI Express Configuration\PCI Express Root Port 1(до кон�
 
 PCH Configuration\PCI Express Configuration\PCI Express Root Port 1(до конца всех портов)>PME SCI>Disable
 
+PCH Configuration\USB Configuration>XHCI Idle L1>Disabled
+
+PCH Configuration\Azalia Configuration>Azalia>Disabled  !!!если не используешь встроенный звуковой чип
+
 IIO Configuration\Intel VT for Directed I/O (VT-d)>Intel VT for Directed I/O (VT-d)>Disable !!!только если тебе не нужна виртуализация
 
 IIO Configuration>Power down unused ports>no
