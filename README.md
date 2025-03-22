@@ -378,6 +378,10 @@ PCH Configuration\PCH SATA Configuration>SATA AHCI LPM>Disabled
 
 PCH Configuration\PCI Express Configuration>PCI-E ASPM Support(GLOBAL)>Disable
 
+PCH Configuration\PCI Express Configuration>PCIE Clock Gating>Disable
+
+PCH Configuration\PCI Express Configuration>PCH DMI ASPM>Disable
+
 PCH Configuration\PCI Express Configuration\PCI Express Root Port 1(до конца всех портов)>PCH-PCIE ASPM>Disable ASPM
 
 PCH Configuration\PCI Express Configuration\PCI Express Root Port 1(до конца всех портов)>L1 Substates>Disable
@@ -393,6 +397,14 @@ PCH Configuration\PCI Express Configuration\PCI Express Root Port 1(до кон�
 PCH Configuration\PCI Express Configuration\PCI Express Root Port 1(до конца всех портов)>PME SCI>Disable
 
 PCH Configuration\USB Configuration>XHCI Idle L1>Disabled
+
+PCH Configuration\USB Configuration>Trunk Clock Gating (BTCG)>Disabled
+
+PCH Configuration\USB Configuration>USB XHCI Interrupt Remap WA>Disabled !!!test
+
+PCH Configuration\PCH Devices>External SSC Enable - CK420>Disabled
+
+PCH Configuration\PCH Devices>PCH Cross Throttling>Disabled
 
 PCH Configuration\Azalia Configuration>Azalia>Disabled  !!!если не используешь встроенный звуковой чип
 
