@@ -422,6 +422,10 @@ PCH Configuration\USB Configuration>Trunk Clock Gating (BTCG)>Disabled
 
 PCH Configuration\USB Configuration>USB XHCI Interrupt Remap WA>Disabled !!!test
 
+PCH Configuration\USB Configuration>USB XHCI s755 WA>Disabled !!!test
+
+PCH Configuration\USB Configuration>USB XHCI Interrupt Remap WA>Disabled !!!test   для виртуализации лучше оставить поумолчанию
+
 PCH Configuration\PCH Devices>External SSC Enable - CK420>Disabled
 
 PCH Configuration\PCH Devices>CLKRUN# logic>Disabled   !!!test 
