@@ -356,7 +356,23 @@ PCI Subsystem Settings\PCI Express Settings>ASPM Support>Disabled
 
 PCI Subsystem Settings\PCI Express Settings>Link Training Retry>Disabled или 2
 
+PCI Subsystem Settings\PCI Express Settings>Extended Tag>Disabled     !!!test !!!на старых видеокартах может вызвать проблемы
+
+PCI Subsystem Settings\PCI Express Settings>Relaxed Ordering>Disabled     !!!test !!!на старых видеокартах может вызвать проблемы
+
+PCI Subsystem Settings\PCI Express Settings>Unpopulated Links>Disabled
+
+PCI Subsystem Settings\PCI Express GEN 2 Settings>AtomicOp Requester Enable>Enabled   !!!test !!!на старых видеокартах может вызвать проблемы
+
+PCI Subsystem Settings\PCI Express GEN 2 Settings>ARI Forwarding>Enabled   !!!test
+
+PCI Subsystem Settings\PCI Express GEN 2 Settings>LTR Mechanism Enable>Enabled
+
 PCI Subsystem Settings\PCI Express GEN 2 Settings>Clock Power Management>Disabled
+
+PCI Subsystem Settings\PCI Express GEN 2 Settings>Hardware Autonomous Width>Disabled
+
+PCI Subsystem Settings\PCI Express GEN 2 Settings>Hardware Autonomous Speed>Disabled
 
 USB Configuration>XHCI Hand-off>Disabled   !!!если ты используешь вин7, то оставь поумолчанию
 
@@ -369,6 +385,10 @@ USB Configuration>Port 60/64 Emulation>Disabled   !!!если ты исполь�
 
 <details>
 <summary>IntelRCSetup</summary>
+
+Miscellaneous Configuration>PCIe AtomicOp Request Support>Enable
+
+Miscellaneous Configuration>Serial Debug Message Level>Disable
 
 PCH Configuration\PCH SATA Configuration>Configure SATA as>AHCI
 
@@ -403,6 +423,10 @@ PCH Configuration\USB Configuration>Trunk Clock Gating (BTCG)>Disabled
 PCH Configuration\USB Configuration>USB XHCI Interrupt Remap WA>Disabled !!!test
 
 PCH Configuration\PCH Devices>External SSC Enable - CK420>Disabled
+
+PCH Configuration\PCH Devices>CLKRUN# logic>Disabled   !!!test 
+
+PCH Configuration\PCH Devices>Serial IRQ Mode>Continuous   !!!test 
 
 PCH Configuration\PCH Devices>PCH Cross Throttling>Disabled
 
