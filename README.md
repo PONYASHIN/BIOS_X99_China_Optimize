@@ -400,6 +400,8 @@ PCH Configuration\PCI Express Configuration>PCI-E ASPM Support(GLOBAL)>Disable
 
 PCH Configuration\PCI Express Configuration>PCIE Clock Gating>Disable
 
+PCH Configuration\PCI Express Configuration>DMI Link Extended Synch Control>Disabled - меньшая задержка, Enabled - большая скорость  !!!!test
+
 PCH Configuration\PCI Express Configuration>PCH DMI ASPM>Disable
 
 PCH Configuration\PCI Express Configuration\PCI Express Root Port 1(до конца всех портов)>PCH-PCIE ASPM>Disable ASPM
@@ -415,6 +417,10 @@ PCH Configuration\PCI Express Configuration\PCI Express Root Port 1(до кон�
 PCH Configuration\PCI Express Configuration\PCI Express Root Port 1(до конца всех портов)>CER>Disable
 
 PCH Configuration\PCI Express Configuration\PCI Express Root Port 1(до конца всех портов)>PME SCI>Disable
+
+PCH Configuration\Common RefCode Configuration>MeSeg Mode>Disabled  !!!test
+
+PCH Configuration\Common RefCode Configuration>Numa>Enable
 
 PCH Configuration\USB Configuration>XHCI Idle L1>Disabled
 
@@ -440,6 +446,30 @@ IIO Configuration\Intel VT for Directed I/O (VT-d)>Intel VT for Directed I/O (VT
 
 IIO Configuration>Power down unused ports>no
 
+IIO Configuration>IIO PCIe Link on phase>Before memory chipset init   !!!test
+
+IIO Configuration>MultiCast Enable>Enable   !!!test
+
+IIO Configuration>TX EQ WA>Enable   !!!test
+
+IIO Configuration>DMI Vc1 Control>Enable   !!!test
+
+IIO Configuration>VC0 No-Snoop Configuration>Enable   !!!test
+
+IIO Configuration>Max Read Comp Comb Size>Maximum   !!!test
+
+IIO Configuration>DMI Allocating Write Flows>Allocating   !!!test
+
+IIO Configuration>PCIe Allocating Write Flows>Allocating   !!!test
+
+IIO Configuration>CDR Hang-Up Detector (C0 Only)>Disable   !!!test
+
+IIO Configuration>MCTP>Disable   !!!test
+
+IIO Configuration>EN1K>Enable   !!!test
+
+IIO Configuration>Gen3 Phase3 Loop Count>1
+
 IIO Configuration>PCI-E ASPM (GLOBAL)>Disable
 
 IIO Configuration\IIO0 Configuration\(порт видеокарты или все)>PCI-E Port D-State>D0
@@ -452,11 +482,17 @@ IIO Configuration\IIO0 Configuration\(порт видеокарты или вс�
 
 QPI Configuration\QPI General Configuration>COD Enable>Disable
 
+QPI Configuration\QPI General Configuration>Link Credit Reduce>no - большая скорость, yes - меньшая задержка  !!!test
+
+QPI Configuration\QPI General Configuration>Home Dir Snoop with IVT- Style OSB Enable>Enable  !!!test
+
 QPI Configuration\QPI General Configuration>Early Snoop>Disable
 
 Memory Configuration>Enforce POR>Disable
 
 Memory Configuration>MemTest>Disable
+
+Memory Configuration>Halt on mem Training Error>Disable
 
 Memory Configuration>DRAM Mainternance Test>Disable
 
@@ -469,6 +505,8 @@ Memory Configuration>Attempt Fast Cold Boot>Disable
 Memory Configuration>MemTest On Fast Boot>Disable
 
 Memory Configuration>RMT On Fast Boot>Disable
+
+Memory Configuration>Data Scrambling>Disabled
 
 Memory Configuration\Memory Thermal>Set Throttling Mode>Disabled или OLTT если у тебя DDR3
 
