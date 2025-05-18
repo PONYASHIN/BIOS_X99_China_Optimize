@@ -508,6 +508,12 @@ Memory Configuration>RMT On Fast Boot>Disable
 
 Memory Configuration>Data Scrambling>Disabled
 
+Memory Configuration>Allow SBE during training>Enabled !!!test
+
+Memory Configuration>WR CRC feature Control>Disable !!!test
+
+Memory Configuration>CECC WA Control>Enabled !!!test
+
 Memory Configuration\Memory Thermal>Set Throttling Mode>Disabled или OLTT если у тебя DDR3
 
 Memory Configuration\Memory Thermal>Memory Power Settings Mode>Disabled
