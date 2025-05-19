@@ -554,7 +554,17 @@ Processor Configuration>VMX>Disable !!!если не используешь ви
 
 Processor Configuration>MSR Lock Control>Disabled !!!test
 
+Processor Configuration>Down Stream PECI>Disabled !!!test
+
+Processor Configuration>SMM Save State>Disabled
+
+Processor Configuration>xTPR>Enabled !!!test         !!!может вызвать проблемы с древними картами
+
 Processor Configuration>Monitor/Mwait>Disable  !!!иногда ломает запуск системы
+
+Advanced Power Management Configuration>LOT26 Enable>Disable
+
+Advanced Power Management Configuration>IOTG Setting>Disable
 
 Advanced Power Management Configuration>Power Technology>Custom
 
@@ -567,6 +577,8 @@ Advanced Power Management Configuration\CPU P State Control>EIST (P-States)>Enab
 Advanced Power Management Configuration\CPU P State Control>Enery Efficent P-state>Disable
 
 Advanced Power Management Configuration\CPU P State Control>Boot performance mode>Max Performance
+
+Advanced Power Management Configuration\CPU P State Control>PL2_SAFETY_NET_ENABLE>Disable
 
 Advanced Power Management Configuration\CPU C State Control>Enchanced Halt State (C1E)>Disable
 
@@ -587,6 +599,20 @@ Advanced Power Management Configuration\CPU - Advanced PM Tuning\Energy Perf BIA
 Advanced Power Management Configuration\CPU - Advanced PM Tuning\Energy Perf BIAS>Energy Performance BIAS setting.>Performance
 
 Advanced Power Management Configuration\CPU - Advanced PM Tuning\Program PowerCTL_MSR>Energy Efficient Turbo>Disable
+
+Advanced Power Management Configuration\CPU - Advanced PM Tuning\Program PowerCTL_MSR>PKG C-state Lat. Neg.>Disable
+
+Advanced Power Management Configuration\CPU - Advanced PM Tuning\Program PowerCTL_MSR>LTR Software Input>Take SW LTR input. !!!test
+
+Advanced Power Management Configuration\CPU - Advanced PM Tuning\Program PowerCTL_MSR>SAPM Control>Disable !!!test
+
+Advanced Power Management Configuration\CPU - Advanced PM Tuning\Program PowerCTL_MSR>PHOLD_SR>Disable !!!test
+
+Advanced Power Management Configuration\CPU - Advanced PM Tuning\Program PowerCTL_MSR>PHOLD_CST_PREVENTION_INIT>Disable !!!test
+
+Advanced Power Management Configuration\CPU - Advanced PM Tuning\Program CSR_DYNAMIC_PERF_POWER_CTL>EEP_L_OVERRIDE_ENABLE>Enable !!!test
+
+Advanced Power Management Configuration\CPU - Advanced PM Tuning\Program CSR_DYNAMIC_PERF_POWER_CTL>I_TURBO_OVERRIDE_ENABLE>Enable !!!test
 
 Server ME Configuration>ME State>Disabled !!!!разные биосы имеют разную версию ME из-за чего на разных биосах может быть, а может и не быть такой настройки
 
