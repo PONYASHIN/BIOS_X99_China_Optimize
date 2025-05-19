@@ -626,6 +626,16 @@ Advanced Power Management Configuration\CPU - Advanced PM Tuning\Program CSR_SAP
 
 Advanced Power Management Configuration\CPU - Advanced PM Tuning\Program CSR_SAPMCTL>MC0 PKGC CLK GATE DISABLE>Enable !!!test
 
+Advanced Power Management Configuration\CPU - Advanced PM Tuning\Program CSR_SAPMCTL>Non-Snoop Wakeup>Enable !!!test
+
+Advanced Power Management Configuration\CPU - Advanced PM Tuning\Program CSR_SAPMCTL>PCIe PLL Shutdown En>Disable !!!test
+
+Advanced Power Management Configuration\CPU - Advanced PM Tuning\Program CSR_SAPMCTL>Mem PLLs Shutdown En>Disable !!!test
+
+Advanced Power Management Configuration\CPU - Advanced PM Tuning\Program CSR PERF_P_LIMIT>Disable_PERF_P_Input>Enable !!!test
+
+Advanced Power Management Configuration\CPU - Advanced PM Tuning\Program CSR PERF_P_LIMIT>PERF_P_LIMIT_EN>Disable !!!test
+
 Server ME Configuration>ME State>Disabled !!!!разные биосы имеют разную версию ME из-за чего на разных биосах может быть, а может и не быть такой настройки
 
 ---------------------------------
