@@ -614,6 +614,18 @@ Advanced Power Management Configuration\CPU - Advanced PM Tuning\Program CSR_DYN
 
 Advanced Power Management Configuration\CPU - Advanced PM Tuning\Program CSR_DYNAMIC_PERF_POWER_CTL>I_TURBO_OVERRIDE_ENABLE>Enable !!!test
 
+Advanced Power Management Configuration\CPU - Advanced PM Tuning\Program CSR_SAPMCTL>IIO_PKGC_CLK_GATE_DISABLE>Enable !!!test
+
+Advanced Power Management Configuration\CPU - Advanced PM Tuning\Program CSR_SAPMCTL>QPI01_PKGC_CLK_GATE_DISABL>Enable !!!test
+
+Advanced Power Management Configuration\CPU - Advanced PM Tuning\Program CSR_SAPMCTL>QPI2_PKGC_CLK_GATE_DISABLE>Enable !!!test
+
+Advanced Power Management Configuration\CPU - Advanced PM Tuning\Program CSR_SAPMCTL>FORCE_PPLL_OFF>Disable !!!test
+
+Advanced Power Management Configuration\CPU - Advanced PM Tuning\Program CSR_SAPMCTL>MC1 PKGC CLK GATE DISABLE>Enable !!!test
+
+Advanced Power Management Configuration\CPU - Advanced PM Tuning\Program CSR_SAPMCTL>MC0 PKGC CLK GATE DISABLE>Enable !!!test
+
 Server ME Configuration>ME State>Disabled !!!!разные биосы имеют разную версию ME из-за чего на разных биосах может быть, а может и не быть такой настройки
 
 ---------------------------------
